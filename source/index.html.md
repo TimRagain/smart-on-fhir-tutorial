@@ -60,7 +60,7 @@ The other content you see in the source folder is the site for this tutorial. We
   <head>
     <meta http-equiv='X-UA-Compatible' content='IE=edge' />
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
-    <title>[YOUR-USERNAME] Example-SMART-App</title>
+    <title>[TimRagain] Example-SMART-App</title>
     ...
 ```
 
@@ -69,12 +69,12 @@ The other content you see in the source folder is the site for this tutorial. We
 >The SMART app will be available at:
 
 ```
-https://<your-username>.github.io/smart-on-fhir-tutorial/example-smart-app/
+https://TimRagain.github.io/smart-on-fhir-tutorial/example-smart-app/
 ```
 >Health check
 
 ```
-https://<your-username>.github.io/smart-on-fhir-tutorial/example-smart-app/health
+https://TimRagain.github.io/smart-on-fhir-tutorial/example-smart-app/health
 ```
 
 For the purposes of this tutorial we will be hosting our SMART app through <a href="https://help.github.com/articles/what-is-github-pages" target="_blank">GitHub Pages</a>. GitHub Pages is a convenient way to host static or client rendered web sites.
@@ -83,7 +83,7 @@ Setting up GitHub pages is easy, so easy in fact that it's already done for you.
 
 Use GitHub UI to directly edit `index.html`. Simply switch the branch to gh-pages, navigate to `/example-smart-app/index.html` and click the pencil icon. Commit your changes to deploy.
 
-Once the app has been redeployed go to ```https://<your-username>.github.io/smart-on-fhir-tutorial/example-smart-app/health``` to ensure your app is available.
+Once the app has been redeployed go to ```https://TimRagain.github.io/smart-on-fhir-tutorial/example-smart-app/health``` to ensure your app is available.
 
 <aside class="notice">
 GitHub Pages sites have a limit of 10 builds per hour, so if your page isn't updating, this could be the reason.
@@ -95,8 +95,8 @@ Now that we have a deployed SMART app, let's register it to access Cerner's FHIR
 Field | Description
 --------- | -----------
 App Name | ```My amazing SMART app``` Any name will do.
-SMART Launch URI | ```https://<your-username>.github.io/smart-on-fhir-tutorial/example-smart-app/launch.html```
-Redirect URI | ```https://<your-username>.github.io/smart-on-fhir-tutorial/example-smart-app/```
+SMART Launch URI | ```https://TimRagain.github.io/smart-on-fhir-tutorial/example-smart-app/launch.html```
+Redirect URI | ```https://TimRagain.github.io/smart-on-fhir-tutorial/example-smart-app/```
 App Type | ```Provider```
 FHIR Spec | ```dstu2_provider``` The latest spec version supported by Cerner.
 Authorized | ```Yes``` Authorized App will go through secured OAuth 2 login.
